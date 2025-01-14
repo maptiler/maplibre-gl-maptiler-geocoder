@@ -110,6 +110,8 @@ export type ControlOptions = {
    */
   apiUrl?: string;
 
+  autocompleteTimeout?: number;
+
   /**
    * Bounding box in the format `[minX, minY, maxX, maxY]` to limit search results.
    *
